@@ -9,16 +9,20 @@
 import SwiftUI
 
 struct InteractivityImage: View {
+    
+    @Binding var imageOpacity:Double
+
     var body: some View {
         ZStack{
-            Color.black.opacity(1).edgesIgnoringSafeArea(.all)
-            
+            Image("Walk").resizable().scaledToFill().edgesIgnoringSafeArea(.all)
+            Color.black.opacity( self.imageOpacity )
+                .edgesIgnoringSafeArea(.all)
         }
     }
 }
 
-struct InteractivityImage_Previews: PreviewProvider {
-    static var previews: some View {
-        InteractivityImage()
-    }
-}
+//struct InteractivityImage_Previews: PreviewProvider {
+//    static var previews: some View {
+//        InteractivityImage()
+//    }
+//}

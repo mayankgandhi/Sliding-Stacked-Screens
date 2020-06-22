@@ -9,12 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var ScreenScroll:CGFloat = .zero
+    
     var body: some View {
-        ZStack {
-            InteractivityImage()
             InteractivityHero()
-        }
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

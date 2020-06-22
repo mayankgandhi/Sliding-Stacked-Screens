@@ -15,6 +15,7 @@
 		A8169A19249B81B800CA26F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8169A17249B81B800CA26F4 /* LaunchScreen.storyboard */; };
 		A8169A21249B81CF00CA26F4 /* InteractivityHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8169A20249B81CF00CA26F4 /* InteractivityHero.swift */; };
 		A8169A23249B820100CA26F4 /* InteractivityImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8169A22249B820100CA26F4 /* InteractivityImage.swift */; };
+		A824CDA3249CD53600174539 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824CDA2249CD53600174539 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A8169A1A249B81B800CA26F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8169A20249B81CF00CA26F4 /* InteractivityHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivityHero.swift; sourceTree = "<group>"; };
 		A8169A22249B820100CA26F4 /* InteractivityImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivityImage.swift; sourceTree = "<group>"; };
+		A824CDA2249CD53600174539 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				A8169A0C249B81B700CA26F4 /* AppDelegate.swift */,
 				A8169A0E249B81B700CA26F4 /* SceneDelegate.swift */,
+				A824CDA2249CD53600174539 /* BlurView.swift */,
 				A8169A10249B81B700CA26F4 /* ContentView.swift */,
 				A8169A20249B81CF00CA26F4 /* InteractivityHero.swift */,
 				A8169A22249B820100CA26F4 /* InteractivityImage.swift */,
@@ -157,6 +160,7 @@
 				A8169A0F249B81B700CA26F4 /* SceneDelegate.swift in Sources */,
 				A8169A21249B81CF00CA26F4 /* InteractivityHero.swift in Sources */,
 				A8169A11249B81B700CA26F4 /* ContentView.swift in Sources */,
+				A824CDA3249CD53600174539 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
